@@ -93,10 +93,15 @@ Global Variables are defined outside the function and can be accessed from anywh
 The Ternary operator first evaluates an expression for a true or false value and then executes one of the two given statements depending upon the result of the evaluation.
 
 #### Control Structure
+
 If-else
+
 For
+
 Switch case
+
 While
+
 Do while
 
 
