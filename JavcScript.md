@@ -10,7 +10,7 @@ JavaScript donated to ECMA to create a standard implementation.
 In 2002 Google & Yahoo started contributing to JavaScript standards And community.
 JavaScript = Java+LiveScript
 
-##Tech Debt 
+## Tech Debt 
 1. Plus sign (+) - Use for addition & concatenation. Always do concat when one of the variables is a string.
 
 1. === - Is used to compare values as well as data types.
@@ -72,7 +72,7 @@ Global Variables are defined outside the function and can be accessed from anywh
 1. Other than the Falsy value, any primitive is truthy values.
 
 ## Operators:- 
-####Arithmetic Operator 
+#### Arithmetic Operator 
 |Operator|	Description|
 |---   |---   |
 |+|	Addition|
@@ -81,18 +81,18 @@ Global Variables are defined outside the function and can be accessed from anywh
 |*|	Multiply|
 |%|	Modulus|
 
-####Logical Operator
+#### Logical Operator
 |Operator	|Description|
 |---|---|
 |&& (and)	|It returns true when both conditions are true|
 ||| ( or)	|It returns true when at least one of the conditions is true|
 |! ( not)	|It reverses the state of the operand|
 
-####Ternary Operator
+#### Ternary Operator
 
 The Ternary operator first evaluates an expression for a true or false value and then executes one of the two given statements depending upon the result of the evaluation.
 
-####Control Structure
+#### Control Structure
 If-else
 For
 Switch case
@@ -135,28 +135,28 @@ name: "krunal",city: "mumbai"
 In this example, var user pass the reference of its memory location to var result. If we update the object user, then the object result will also get updated.
 
 
-##Function 
+## Function 
 A Function is mainly used to reduce lines of code.
 A Function is treated as object data types in JavaScript.
 
-####Function behavior
+#### Function behavior
 Normal declaration
 Hoisting
 Override function
 Container (object)
 Scope Local & Global
 
-#####Functional Scope: - 
+##### Functional Scope: - 
 A variable declared within the function can only access in the function.
 ####Lexical Scope: -
 A child function can access the parent function. It starts and ends with {}.
 
 
-####First-class citizen
+#### First-class citizen
 A function can be assigned to a variable.
 A function can be return from another function.
 
-####Function Declaration
+#### Function Declaration
 ~~~javascript
 function result() {
     console.log("Hiiii");
@@ -164,17 +164,17 @@ function result() {
 result();
 ~~~
 
-####Function Expression
+#### Function Expression
 ~~~javascript
 let result = function(){
     console.log("Hiii");
 }
 result();
 ~~~
-####Higher-order function 
+#### Higher-order function 
 A function can receive the function, and a function can return the function.
 
-####IIFE (Immediately Invoke Function Expression)
+#### IIFE (Immediately Invoke Function Expression)
 ~~~javascript
 (function(){
     console.log("krunal");
@@ -187,7 +187,7 @@ With Parameter
     console.log("Addition of two numbers is = " +(a+b) );
 })(10,20);
 ~~~
-####Pure function 
+#### Pure function 
 when the same input is passed every time, and function will return the same output.
 ~~~javascript
 function sub(x,y){
@@ -199,7 +199,7 @@ let total = sub(a ,b)
 console.log(total)
 ~~~
 
-####Arrow Function
+#### Arrow Function
 ~~~javascript
 const add = (a ,b) => {
     console.log("Addition of two numbers is = "+(a+b));
@@ -207,12 +207,12 @@ const add = (a ,b) => {
 add(10,10);
 ~~~
 
-##Array
+## Array
 An array can hold multiple arguments in JavaScript.
 An array is an object data type.
 In an array, the default index position will always start from zero.
 
-####Array built-in methods
+#### Array built-in methods
 |Methods|Description|
 |---|---|
 |pop | is used to remove an element at the end of the array|
@@ -228,7 +228,7 @@ In an array, the default index position will always start from zero.
 |isArray | is used to check whether an object is an array|
 
 
-####String built-in methods
+#### String built-in methods
 |Methods|Description|
 |---|---|
 |Split | is used to split the string|
@@ -237,7 +237,7 @@ In an array, the default index position will always start from zero.
 |toLowerCase | is used to convert the string into lower case|
 |toUpperCase | is used to convert the string into upper case|
 
-####Built in Functiuon
+#### Built in Functiuon
 |Methods|Description|
 |---|---|
 |setTimeout | delay the code for some time|
