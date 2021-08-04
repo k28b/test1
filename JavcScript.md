@@ -148,7 +148,7 @@ Scope Local & Global
 
 ##### Functional Scope: - 
 A variable declared within the function can only access in the function.
-####Lexical Scope: -
+#### Lexical Scope: -
 A child function can access the parent function. It starts and ends with {}.
 
 
