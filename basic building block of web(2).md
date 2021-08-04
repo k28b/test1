@@ -1,4 +1,4 @@
-###Programing language
+### Programing language
 A programming language is used to communicate with computers.
 some of the programming languages are: -
 1. Java
@@ -12,7 +12,7 @@ some of the programming languages are: -
 1. Ruby
 
 
-###IP address: -
+### IP address: -
 An IP address is a unique address that identifies a device on the Internet or a local network. 
 Versions of Ip address
 ####IPv4
@@ -26,75 +26,75 @@ Versions of Ip address
 
 
 
-####IPv6
+#### IPv6
 IPv6 is the most recent version of the IP. A communication protocol that provides an identification and location system for computers on networks and routes traffic across the Internet.
-####Port
+#### Port
 0 – 1023  - reserve port used by systems
 1024 – 49150 Application port
 49151 – 65535 Open port
 
-####Web Ports
+#### Web Ports
 Port 80 - is used for HTTP connection by default.
 Port 443 - is used by HTTPS by default. All production applications run in 443.
 
-####Web Server :-
+#### Web Server :-
 Nginx
 Apache 2.0
 Light http
 
-####HTTP Verbs
+#### HTTP Verbs
 GET - it is used to fetch the data.
 POST - it is used to send the data.
 PUT – it is used to update the data.
 DELETE – it is used to delete the data.
 
-####HTTP Headers 
+#### HTTP Headers 
 The HTTP headers are used to pass additional information between the clients and the server through the request and response header.
-#####HTTP Ports: -
+##### HTTP Ports: -
 100 – Information Response
 200 – Successful Response
 300 – Redirect Response
 400 – Client error Response
 500 – Server error Response
 
-####Database
+#### Database
 Relational Database
 Mysql
 PosgreSql
 MariaBD
 
-####Non-Relational Database
+#### Non-Relational Database
 Mongodb
 Redis
 Cassandra
 NeoJS
 
-####Cloud Providers: -
+#### Cloud Providers: -
 AWS
 Google Cloud
 Azure
 Vultr
 
 
-####Code Repo
+#### Code Repo
 Github
 Gitlab
 Bitbucket
 
-####Project Management Tool: -
+#### Project Management Tool: -
 JIRA
 Google sheet
 DOC
 Trello
 Asana
 
-####Git Dev Workflow
+#### Git Dev Workflow
 Feature branch
 Develop branch
 Stage branch
 Master branch
 
-####Infrastructure
+#### Infrastructure
 Dev
 UAT
 Production system
